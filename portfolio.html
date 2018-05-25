@@ -45,7 +45,7 @@
 
         .banner {
             width: 100%;
-            height: 600px;
+            height: 650px;
             margin-top: 60px;
             background-image: url(aset/bg-porfolio.jpg);
             background-size: cover;
@@ -94,7 +94,7 @@
 
         .beberapa a {
             padding: 35px 20px;
-            color:rgb(33, 199, 163);
+            color: rgb(33, 199, 163);
             text-decoration: none;
         }
 
@@ -104,9 +104,23 @@
             background-color: rgb(28, 202, 173);
         }
 
+        /* .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            color: #fff;
+            background-color: teal;
+        }
+
+        .nav-pills .nav-link {
+            border-radius: .25rem;
+        }
+
+        .nav-link {
+            display: block;
+            padding: .5rem 1rem;
+        } */
+
+
     </style>
-
-
 
 </head>
 
@@ -126,33 +140,64 @@
         </header>
     </div>
 
-    <banner class="row">
-        <div class="col banner">
-            <div class="overlay"></div>
-            <h1>PORTFOLIO</h1>
-        </div>
-    </banner>
-
-    <content class="row justify-content-center">
-        <div class="col-6 portfolio m-4">
-            <div class="col beberapa">
-                <a href="#">Project</a>
-                <a href="#">Logofolio</a>
-                <a href="#">Illustration</a>
-                <a href="#">Typography</a>
+    <div class="container-fluid">
+        <banner class="row">
+            <div class="col banner">
+                <div class="overlay"></div>
+                <h1>PORTFOLIO</h1>
             </div>
-        </div>
-    </content>
+        </banner>
 
-    <isi class="row justify-content-center">
-        <div class="col-11 project">
-            <img class="w-100" src="aset/p-trafood.jpg" alt="">
-            <img class="w-100" src="aset/p-mandiri.jpg" alt="">
-            <img class="w-100" src="aset/p-pertamina.jpg" alt="">
-            <img class="w-100" src="aset/p-dikti.jpg" alt="">
-            <img class="w-100" src="aset/p-nyan.jpg" alt="">
-        </div>
-    </isi>
+        <!-- <ul class="nav nav-pills justify-content-center mt-5" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Logofolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="col-11 project">
+                    <img class="w-100" src="aset/p-trafood.jpg" alt="">
+                    <img class="w-100" src="aset/p-mandiri.jpg" alt="">
+                    <img class="w-100" src="aset/p-pertamina.jpg" alt="">
+                    <img class="w-100" src="aset/p-dikti.jpg" alt="">
+                    <img class="w-100" src="aset/p-nyan.jpg" alt="">
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <img src="aset/p-mandiri.jpg" alt="">
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <img src="aset/p-pertamina.jpg" alt="">
+            </div>
+        </div> -->
+
+        <content class="row justify-content-center">
+            <div class="col-6 portfolio m-4">
+                <div class="col beberapa">
+                    <a href="#">Project</a>
+                    <a href="#">Logofolio</a>
+                    <a href="#">Illustration</a>
+                    <a href="#">Typography</a>
+                </div>
+            </div>
+        </content>
+
+        <isi class="row justify-content-center">
+            <div class="col-11 project">
+                <img class="w-100" src="aset/p-trafood.jpg" alt="">
+                <img class="w-100" src="aset/p-mandiri.jpg" alt="">
+                <img class="w-100" src="aset/p-pertamina.jpg" alt="">
+                <img class="w-100" src="aset/p-dikti.jpg" alt="">
+                <img class="w-100" src="aset/p-nyan.jpg" alt="">
+            </div>
+        </isi>
+    </div>
 
 
 
